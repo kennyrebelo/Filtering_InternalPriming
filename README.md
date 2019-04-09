@@ -11,8 +11,6 @@ Parameters:
 
 -a, --adapter	TGG.. (regular expression able)
 
--d, --outdir	output directory
-
 -g, --genome	reference genome .fasta
 
 Designed for NET-seq data and described as part of an analysis pipeline in *insert reference*
