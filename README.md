@@ -6,9 +6,13 @@ For paired-end sequencing labraries, the downstream sequence corresponds to the 
 Parameters:
 
 -f, --filepath	input file
+
 -s, --strategy	single/paired
+
 -a, --adapter	TGG.. (regular expression able)
+
 -d, --outdir	output directory
+
 -g, --genome	reference genome .fasta
 
 Designed for NET-seq data and described as part of an analysis pipeline in *insert reference*
