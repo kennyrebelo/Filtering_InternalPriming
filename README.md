@@ -17,6 +17,6 @@ Designed for NET-seq data and described as part of an analysis pipeline in *inse
 
 Usage examples:
 
-python Filter_InternalPriming.py -f /alignments/merged_mNET_Long_S5P_rep1_unique.bam -s single -a TGG -d ./ -g /genomes/human/hg38/GRCh38.primary.genome.fa
+python Filter_InternalPriming.py -f /alignments/merged_mNET_Long_S5P_rep1_unique.bam -s single -a TGG -g /genomes/human/hg38/GRCh38.primary.genome.fa
 
-python Filter_InternalPriming.py -f /alignments/mNET_Long_S5P_rep1_unique_sorted.bam -s paired -a .GGA -d ./ -g /genomes/human/hg38/GRCh38.primary.genome.fa
+python Filter_InternalPriming.py -f /alignments/mNET_Long_S5P_rep1_unique_sorted.bam -s paired -a .GGA -g /genomes/human/hg38/GRCh38.primary.genome.fa
