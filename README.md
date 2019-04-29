@@ -7,7 +7,7 @@ Parameters:
 
 -f, --filepath	input file
 
--s, --strategy	single/paired
+-s, --strategy	single/paired (use single for NET-seq data already in single nucleotide format)
 
 -a, --adapter	TGG.. (regular expression able)
 
