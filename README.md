@@ -1,5 +1,7 @@
 # Filter_InternalPriming
 
+Requires bedtools and samtools installed in run environment. Developed and tested with [SAMtools](http://samtools.sourceforge.net/) v1.7 and [bedtools](https://bedtools.readthedocs.io/en/latest/) v2.27.1-1-gb87c465
+
 From an aligned .bam file, resulting from single-end or paired-end sequencing, returns a .bam file without the reads that have their downstream alignment sequence (the following nucleotides beyond the read) matching the sequence of the adapter given.
 For paired-end sequencing labraries, the downstream sequence corresponds to the following nucleotides of read 2.
 
