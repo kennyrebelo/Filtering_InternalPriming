@@ -35,7 +35,7 @@ Iterate through the resulting .bed file to add the genome coordinates downstream
 
 Next step is extracting nucleotide sequence for each .bed entry (converting the .bed file into a .fasta file). All entries where the 3'OH downstream sequence match the sequence of the given adapter will be discarded. From the other ones we save the read IDs into a .txt file. A .txt file that now has the read IDs of the reads that do **not** result from internal priming. 
 
-Extraction of the reads that have the matching IDs with the ones in the internal priming-free .txt file from the original alignment file.
+Extraction of the reads that have matching IDs with the ones in the internal priming-free .txt file from the original alignment file.
 
 
 
