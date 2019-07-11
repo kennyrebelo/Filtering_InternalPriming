@@ -11,7 +11,7 @@ Parameters:
 
 -s, --strategy	single/paired (use single for NET-seq data already in single nucleotide format)
 
--a, --adapter	TGG.. (accepts regular expressions)
+-a, --adapter	TGG.. N's in the sequence can be represented by "."
 
 -g, --genome	reference genome .fasta
 
